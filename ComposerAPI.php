@@ -192,7 +192,7 @@ class ComposerAPI {
 	
 	/**
 	 * Installes one or more packages: see https://getcomposer.org/doc/03-cli.md#require.
-	 * E.g. $composer->require(array('monolog/monolog:~1.16', 'slim/slim')) will install monolog in version 1.16
+	 * E.g. $composer->comrequire(array('monolog/monolog:~1.16', 'slim/slim')) will install monolog in version 1.16
 	 * or later and the Slim framework in the latest available version.
 	 * 
 	 * @param array $package_names
