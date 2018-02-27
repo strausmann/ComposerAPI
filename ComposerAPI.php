@@ -200,7 +200,7 @@ class ComposerAPI {
 	 * @param OutputInterface $output
 	 * @return \Symfony\Component\Console\Output\OutputInterface
 	 */
-	public function require(array $package_names, array $options = null, OutputInterface $output = null){
+	public function comrequire(array $package_names, array $options = null, OutputInterface $output = null){
 		$arguments = array();
 		
 		if (is_array($package_names) && count($package_names) > 0){
