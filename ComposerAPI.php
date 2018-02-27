@@ -192,7 +192,7 @@ class ComposerAPI {
 	
 	/**
 	 * Installes one or more packages: see https://getcomposer.org/doc/03-cli.md#require.
-	 * E.g. $composer->comrequire(array('monolog/monolog:~1.16', 'slim/slim')) will install monolog in version 1.16
+	 * E.g. $composer->require(array('monolog/monolog:~1.16', 'slim/slim')) will install monolog in version 1.16
 	 * or later and the Slim framework in the latest available version.
 	 * 
 	 * @param array $package_names
@@ -200,7 +200,7 @@ class ComposerAPI {
 	 * @param OutputInterface $output
 	 * @return \Symfony\Component\Console\Output\OutputInterface
 	 */
-	public function comrequire(array $package_names, array $options = null, OutputInterface $output = null){
+	public function require(array $package_names, array $options = null, OutputInterface $output = null){
 		$arguments = array();
 		
 		if (is_array($package_names) && count($package_names) > 0){
