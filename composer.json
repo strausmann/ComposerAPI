@@ -13,6 +13,7 @@
 		"issues" : "https://github.com/kabachello/ComposerAPI/issues"
 	},
 	"require" : {
+		"php" : "^7.0 || ^7.1 || ^7.2",
 		"composer/composer" : "^1.0"
 	},
     "autoload": {
